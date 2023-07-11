@@ -7,3 +7,4 @@ statsmodels
 ipykernel
 requests
 yfinance
+yellowbrick
