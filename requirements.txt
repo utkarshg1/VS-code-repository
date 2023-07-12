@@ -8,3 +8,4 @@ ipykernel
 requests
 yfinance
 yellowbrick
+plotly
