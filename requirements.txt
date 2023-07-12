@@ -9,3 +9,4 @@ requests
 yfinance
 yellowbrick
 plotly
+nbformat
