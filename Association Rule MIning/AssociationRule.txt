@@ -4,10 +4,10 @@ RelationRecord(items=frozenset({'mushroom cream sauce', 'escalope'}), support=0.
 RelationRecord(items=frozenset({'pasta', 'escalope'}), support=0.005865884548726837, ordered_statistics=[OrderedStatistic(items_base=frozenset({'pasta'}), items_add=frozenset({'escalope'}), confidence=0.3728813559322034, lift=4.700811850163794)])
 
 ====================================================================================================
-RelationRecord(items=frozenset({'herb & pepper', 'ground beef'}), support=0.015997866951073192, ordered_statistics=[OrderedStatistic(items_base=frozenset({'herb & pepper'}), items_add=frozenset({'ground beef'}), confidence=0.3234501347708895, lift=3.2919938411349285)])
+RelationRecord(items=frozenset({'ground beef', 'herb & pepper'}), support=0.015997866951073192, ordered_statistics=[OrderedStatistic(items_base=frozenset({'herb & pepper'}), items_add=frozenset({'ground beef'}), confidence=0.3234501347708895, lift=3.2919938411349285)])
 
 ====================================================================================================
-RelationRecord(items=frozenset({'tomato sauce', 'ground beef'}), support=0.005332622317024397, ordered_statistics=[OrderedStatistic(items_base=frozenset({'tomato sauce'}), items_add=frozenset({'ground beef'}), confidence=0.3773584905660377, lift=3.840659481324083)])
+RelationRecord(items=frozenset({'ground beef', 'tomato sauce'}), support=0.005332622317024397, ordered_statistics=[OrderedStatistic(items_base=frozenset({'tomato sauce'}), items_add=frozenset({'ground beef'}), confidence=0.3773584905660377, lift=3.840659481324083)])
 
 ====================================================================================================
 RelationRecord(items=frozenset({'olive oil', 'whole wheat pasta'}), support=0.007998933475536596, ordered_statistics=[OrderedStatistic(items_base=frozenset({'whole wheat pasta'}), items_add=frozenset({'olive oil'}), confidence=0.2714932126696833, lift=4.122410097642296)])
@@ -16,117 +16,51 @@ RelationRecord(items=frozenset({'olive oil', 'whole wheat pasta'}), support=0.00
 RelationRecord(items=frozenset({'pasta', 'shrimp'}), support=0.005065991201173177, ordered_statistics=[OrderedStatistic(items_base=frozenset({'pasta'}), items_add=frozenset({'shrimp'}), confidence=0.3220338983050847, lift=4.506672147735896)])
 
 ====================================================================================================
-RelationRecord(items=frozenset({'frozen vegetables', 'shrimp', 'chocolate'}), support=0.005332622317024397, ordered_statistics=[OrderedStatistic(items_base=frozenset({'frozen vegetables', 'chocolate'}), items_add=frozenset({'shrimp'}), confidence=0.23255813953488375, lift=3.2545123221103784), OrderedStatistic(items_base=frozenset({'shrimp', 'chocolate'}), items_add=frozenset({'frozen vegetables'}), confidence=0.29629629629629634, lift=3.1084175084175087)])
+RelationRecord(items=frozenset({'shrimp', 'chocolate', 'frozen vegetables'}), support=0.005332622317024397, ordered_statistics=[OrderedStatistic(items_base=frozenset({'chocolate', 'frozen vegetables'}), items_add=frozenset({'shrimp'}), confidence=0.23255813953488375, lift=3.2545123221103784), OrderedStatistic(items_base=frozenset({'shrimp', 'chocolate'}), items_add=frozenset({'frozen vegetables'}), confidence=0.29629629629629634, lift=3.1084175084175087)])
 
 ====================================================================================================
-RelationRecord(items=frozenset({'spaghetti', 'cooking oil', 'ground beef'}), support=0.004799360085321957, ordered_statistics=[OrderedStatistic(items_base=frozenset({'cooking oil', 'ground beef'}), items_add=frozenset({'spaghetti'}), confidence=0.5714285714285714, lift=3.2819951870487856), OrderedStatistic(items_base=frozenset({'spaghetti', 'cooking oil'}), items_add=frozenset({'ground beef'}), confidence=0.3025210084033613, lift=3.0789824749438446)])
+RelationRecord(items=frozenset({'spaghetti', 'ground beef', 'cooking oil'}), support=0.004799360085321957, ordered_statistics=[OrderedStatistic(items_base=frozenset({'ground beef', 'cooking oil'}), items_add=frozenset({'spaghetti'}), confidence=0.5714285714285714, lift=3.2819951870487856), OrderedStatistic(items_base=frozenset({'spaghetti', 'cooking oil'}), items_add=frozenset({'ground beef'}), confidence=0.3025210084033613, lift=3.0789824749438446)])
 
 ====================================================================================================
-RelationRecord(items=frozenset({'mushroom cream sauce', 'nan', 'escalope'}), support=0.005732568990801226, ordered_statistics=[OrderedStatistic(items_base=frozenset({'mushroom cream sauce'}), items_add=frozenset({'nan', 'escalope'}), confidence=0.3006993006993007, lift=3.790832696715049), OrderedStatistic(items_base=frozenset({'mushroom cream sauce', 'nan'}), items_add=frozenset({'escalope'}), confidence=0.3006993006993007, lift=3.790832696715049)])
+RelationRecord(items=frozenset({'spaghetti', 'frozen vegetables', 'ground beef'}), support=0.008665511265164644, ordered_statistics=[OrderedStatistic(items_base=frozenset({'frozen vegetables', 'spaghetti'}), items_add=frozenset({'ground beef'}), confidence=0.31100478468899523, lift=3.165328208890303)])
 
 ====================================================================================================
-RelationRecord(items=frozenset({'pasta', 'nan', 'escalope'}), support=0.005865884548726837, ordered_statistics=[OrderedStatistic(items_base=frozenset({'pasta'}), items_add=frozenset({'nan', 'escalope'}), confidence=0.3728813559322034, lift=4.700811850163794), OrderedStatistic(items_base=frozenset({'pasta', 'nan'}), items_add=frozenset({'escalope'}), confidence=0.3728813559322034, lift=4.700811850163794)])
+RelationRecord(items=frozenset({'olive oil', 'milk', 'frozen vegetables'}), support=0.004799360085321957, ordered_statistics=[OrderedStatistic(items_base=frozenset({'milk', 'frozen vegetables'}), items_add=frozenset({'olive oil'}), confidence=0.20338983050847456, lift=3.088314005352364), OrderedStatistic(items_base=frozenset({'olive oil', 'frozen vegetables'}), items_add=frozenset({'milk'}), confidence=0.4235294117647058, lift=3.2684095860566447)])
 
 ====================================================================================================
-RelationRecord(items=frozenset({'frozen vegetables', 'ground beef', 'spaghetti'}), support=0.008665511265164644, ordered_statistics=[OrderedStatistic(items_base=frozenset({'frozen vegetables', 'spaghetti'}), items_add=frozenset({'ground beef'}), confidence=0.31100478468899523, lift=3.165328208890303)])
+RelationRecord(items=frozenset({'mineral water', 'frozen vegetables', 'shrimp'}), support=0.007199040127982935, ordered_statistics=[OrderedStatistic(items_base=frozenset({'mineral water', 'shrimp'}), items_add=frozenset({'frozen vegetables'}), confidence=0.30508474576271183, lift=3.200616332819722)])
 
 ====================================================================================================
-RelationRecord(items=frozenset({'frozen vegetables', 'olive oil', 'milk'}), support=0.004799360085321957, ordered_statistics=[OrderedStatistic(items_base=frozenset({'frozen vegetables', 'milk'}), items_add=frozenset({'olive oil'}), confidence=0.20338983050847456, lift=3.088314005352364), OrderedStatistic(items_base=frozenset({'frozen vegetables', 'olive oil'}), items_add=frozenset({'milk'}), confidence=0.4235294117647058, lift=3.2684095860566447)])
+RelationRecord(items=frozenset({'olive oil', 'frozen vegetables', 'spaghetti'}), support=0.005732568990801226, ordered_statistics=[OrderedStatistic(items_base=frozenset({'frozen vegetables', 'spaghetti'}), items_add=frozenset({'olive oil'}), confidence=0.20574162679425836, lift=3.1240241752707125)])
 
 ====================================================================================================
-RelationRecord(items=frozenset({'frozen vegetables', 'shrimp', 'mineral water'}), support=0.007199040127982935, ordered_statistics=[OrderedStatistic(items_base=frozenset({'shrimp', 'mineral water'}), items_add=frozenset({'frozen vegetables'}), confidence=0.30508474576271183, lift=3.200616332819722)])
+RelationRecord(items=frozenset({'shrimp', 'frozen vegetables', 'spaghetti'}), support=0.005999200106652446, ordered_statistics=[OrderedStatistic(items_base=frozenset({'frozen vegetables', 'spaghetti'}), items_add=frozenset({'shrimp'}), confidence=0.21531100478468898, lift=3.0131489680782684)])
 
 ====================================================================================================
-RelationRecord(items=frozenset({'frozen vegetables', 'olive oil', 'spaghetti'}), support=0.005732568990801226, ordered_statistics=[OrderedStatistic(items_base=frozenset({'frozen vegetables', 'spaghetti'}), items_add=frozenset({'olive oil'}), confidence=0.20574162679425836, lift=3.1240241752707125)])
+RelationRecord(items=frozenset({'tomatoes', 'frozen vegetables', 'spaghetti'}), support=0.006665777896280496, ordered_statistics=[OrderedStatistic(items_base=frozenset({'frozen vegetables', 'spaghetti'}), items_add=frozenset({'tomatoes'}), confidence=0.23923444976076558, lift=3.4980460188216425), OrderedStatistic(items_base=frozenset({'tomatoes', 'spaghetti'}), items_add=frozenset({'frozen vegetables'}), confidence=0.3184713375796179, lift=3.341053850607991)])
 
 ====================================================================================================
-RelationRecord(items=frozenset({'frozen vegetables', 'shrimp', 'spaghetti'}), support=0.005999200106652446, ordered_statistics=[OrderedStatistic(items_base=frozenset({'frozen vegetables', 'spaghetti'}), items_add=frozenset({'shrimp'}), confidence=0.21531100478468898, lift=3.0131489680782684)])
+RelationRecord(items=frozenset({'spaghetti', 'ground beef', 'grated cheese'}), support=0.005332622317024397, ordered_statistics=[OrderedStatistic(items_base=frozenset({'spaghetti', 'grated cheese'}), items_add=frozenset({'ground beef'}), confidence=0.3225806451612903, lift=3.283144395325426)])
 
 ====================================================================================================
-RelationRecord(items=frozenset({'frozen vegetables', 'tomatoes', 'spaghetti'}), support=0.006665777896280496, ordered_statistics=[OrderedStatistic(items_base=frozenset({'frozen vegetables', 'spaghetti'}), items_add=frozenset({'tomatoes'}), confidence=0.23923444976076558, lift=3.4980460188216425), OrderedStatistic(items_base=frozenset({'spaghetti', 'tomatoes'}), items_add=frozenset({'frozen vegetables'}), confidence=0.3184713375796179, lift=3.341053850607991)])
+RelationRecord(items=frozenset({'mineral water', 'ground beef', 'herb & pepper'}), support=0.006665777896280496, ordered_statistics=[OrderedStatistic(items_base=frozenset({'mineral water', 'herb & pepper'}), items_add=frozenset({'ground beef'}), confidence=0.39062500000000006, lift=3.975682666214383)])
 
 ====================================================================================================
-RelationRecord(items=frozenset({'spaghetti', 'grated cheese', 'ground beef'}), support=0.005332622317024397, ordered_statistics=[OrderedStatistic(items_base=frozenset({'spaghetti', 'grated cheese'}), items_add=frozenset({'ground beef'}), confidence=0.3225806451612903, lift=3.283144395325426)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'herb & pepper', 'mineral water', 'ground beef'}), support=0.006665777896280496, ordered_statistics=[OrderedStatistic(items_base=frozenset({'herb & pepper', 'mineral water'}), items_add=frozenset({'ground beef'}), confidence=0.39062500000000006, lift=3.975682666214383)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'herb & pepper', 'nan', 'ground beef'}), support=0.015997866951073192, ordered_statistics=[OrderedStatistic(items_base=frozenset({'herb & pepper'}), items_add=frozenset({'nan', 'ground beef'}), confidence=0.3234501347708895, lift=3.2919938411349285), OrderedStatistic(items_base=frozenset({'herb & pepper', 'nan'}), items_add=frozenset({'ground beef'}), confidence=0.3234501347708895, lift=3.2919938411349285)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'spaghetti', 'herb & pepper', 'ground beef'}), support=0.006399146780429276, ordered_statistics=[OrderedStatistic(items_base=frozenset({'spaghetti', 'herb & pepper'}), items_add=frozenset({'ground beef'}), confidence=0.3934426229508197, lift=4.004359721511667)])
+RelationRecord(items=frozenset({'spaghetti', 'ground beef', 'herb & pepper'}), support=0.006399146780429276, ordered_statistics=[OrderedStatistic(items_base=frozenset({'spaghetti', 'herb & pepper'}), items_add=frozenset({'ground beef'}), confidence=0.3934426229508197, lift=4.004359721511667)])
 
 ====================================================================================================
 RelationRecord(items=frozenset({'olive oil', 'milk', 'ground beef'}), support=0.004932675643247567, ordered_statistics=[OrderedStatistic(items_base=frozenset({'milk', 'ground beef'}), items_add=frozenset({'olive oil'}), confidence=0.22424242424242427, lift=3.40494417862839)])
 
 ====================================================================================================
-RelationRecord(items=frozenset({'tomato sauce', 'nan', 'ground beef'}), support=0.005332622317024397, ordered_statistics=[OrderedStatistic(items_base=frozenset({'tomato sauce'}), items_add=frozenset({'nan', 'ground beef'}), confidence=0.3773584905660377, lift=3.840659481324083), OrderedStatistic(items_base=frozenset({'tomato sauce', 'nan'}), items_add=frozenset({'ground beef'}), confidence=0.3773584905660377, lift=3.840659481324083)])
-
-====================================================================================================
 RelationRecord(items=frozenset({'spaghetti', 'shrimp', 'ground beef'}), support=0.005999200106652446, ordered_statistics=[OrderedStatistic(items_base=frozenset({'shrimp', 'ground beef'}), items_add=frozenset({'spaghetti'}), confidence=0.5232558139534884, lift=3.005315360233627)])
 
 ====================================================================================================
-RelationRecord(items=frozenset({'spaghetti', 'olive oil', 'milk'}), support=0.007199040127982935, ordered_statistics=[OrderedStatistic(items_base=frozenset({'spaghetti', 'milk'}), items_add=frozenset({'olive oil'}), confidence=0.20300751879699247, lift=3.0825089038385434)])
+RelationRecord(items=frozenset({'olive oil', 'milk', 'spaghetti'}), support=0.007199040127982935, ordered_statistics=[OrderedStatistic(items_base=frozenset({'milk', 'spaghetti'}), items_add=frozenset({'olive oil'}), confidence=0.20300751879699247, lift=3.0825089038385434)])
 
 ====================================================================================================
-RelationRecord(items=frozenset({'olive oil', 'soup', 'mineral water'}), support=0.005199306759098787, ordered_statistics=[OrderedStatistic(items_base=frozenset({'soup', 'mineral water'}), items_add=frozenset({'olive oil'}), confidence=0.22543352601156072, lift=3.4230301186492245)])
+RelationRecord(items=frozenset({'olive oil', 'mineral water', 'soup'}), support=0.005199306759098787, ordered_statistics=[OrderedStatistic(items_base=frozenset({'mineral water', 'soup'}), items_add=frozenset({'olive oil'}), confidence=0.22543352601156072, lift=3.4230301186492245)])
 
 ====================================================================================================
-RelationRecord(items=frozenset({'olive oil', 'nan', 'whole wheat pasta'}), support=0.007998933475536596, ordered_statistics=[OrderedStatistic(items_base=frozenset({'whole wheat pasta'}), items_add=frozenset({'olive oil', 'nan'}), confidence=0.2714932126696833, lift=4.13077198425009), OrderedStatistic(items_base=frozenset({'nan', 'whole wheat pasta'}), items_add=frozenset({'olive oil'}), confidence=0.2714932126696833, lift=4.122410097642296)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'pasta', 'shrimp', 'nan'}), support=0.005065991201173177, ordered_statistics=[OrderedStatistic(items_base=frozenset({'pasta'}), items_add=frozenset({'shrimp', 'nan'}), confidence=0.3220338983050847, lift=4.515095833993347), OrderedStatistic(items_base=frozenset({'pasta', 'nan'}), items_add=frozenset({'shrimp'}), confidence=0.3220338983050847, lift=4.506672147735896)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'spaghetti', 'olive oil', 'pancakes'}), support=0.005065991201173177, ordered_statistics=[OrderedStatistic(items_base=frozenset({'spaghetti', 'pancakes'}), items_add=frozenset({'olive oil'}), confidence=0.20105820105820105, lift=3.0529100529100526)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'frozen vegetables', 'shrimp', 'chocolate', 'nan'}), support=0.005332622317024397, ordered_statistics=[OrderedStatistic(items_base=frozenset({'frozen vegetables', 'chocolate'}), items_add=frozenset({'shrimp', 'nan'}), confidence=0.23255813953488375, lift=3.260595522712454), OrderedStatistic(items_base=frozenset({'shrimp', 'chocolate'}), items_add=frozenset({'frozen vegetables', 'nan'}), confidence=0.29629629629629634, lift=3.1084175084175087), OrderedStatistic(items_base=frozenset({'frozen vegetables', 'chocolate', 'nan'}), items_add=frozenset({'shrimp'}), confidence=0.23255813953488375, lift=3.2545123221103784), OrderedStatistic(items_base=frozenset({'shrimp', 'chocolate', 'nan'}), items_add=frozenset({'frozen vegetables'}), confidence=0.29629629629629634, lift=3.1084175084175087)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'spaghetti', 'nan', 'cooking oil', 'ground beef'}), support=0.004799360085321957, ordered_statistics=[OrderedStatistic(items_base=frozenset({'cooking oil', 'ground beef'}), items_add=frozenset({'spaghetti', 'nan'}), confidence=0.5714285714285714, lift=3.2819951870487856), OrderedStatistic(items_base=frozenset({'spaghetti', 'cooking oil'}), items_add=frozenset({'nan', 'ground beef'}), confidence=0.3025210084033613, lift=3.0789824749438446), OrderedStatistic(items_base=frozenset({'nan', 'cooking oil', 'ground beef'}), items_add=frozenset({'spaghetti'}), confidence=0.5714285714285714, lift=3.2819951870487856), OrderedStatistic(items_base=frozenset({'spaghetti', 'nan', 'cooking oil'}), items_add=frozenset({'ground beef'}), confidence=0.3025210084033613, lift=3.0789824749438446)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'frozen vegetables', 'nan', 'ground beef', 'spaghetti'}), support=0.008665511265164644, ordered_statistics=[OrderedStatistic(items_base=frozenset({'frozen vegetables', 'spaghetti'}), items_add=frozenset({'nan', 'ground beef'}), confidence=0.31100478468899523, lift=3.165328208890303), OrderedStatistic(items_base=frozenset({'frozen vegetables', 'nan', 'spaghetti'}), items_add=frozenset({'ground beef'}), confidence=0.31100478468899523, lift=3.165328208890303)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'frozen vegetables', 'olive oil', 'nan', 'milk'}), support=0.004799360085321957, ordered_statistics=[OrderedStatistic(items_base=frozenset({'frozen vegetables', 'milk'}), items_add=frozenset({'olive oil', 'nan'}), confidence=0.20338983050847456, lift=3.094578333963626), OrderedStatistic(items_base=frozenset({'frozen vegetables', 'olive oil'}), items_add=frozenset({'nan', 'milk'}), confidence=0.4235294117647058, lift=3.2684095860566447), OrderedStatistic(items_base=frozenset({'frozen vegetables', 'nan', 'milk'}), items_add=frozenset({'olive oil'}), confidence=0.20338983050847456, lift=3.088314005352364), OrderedStatistic(items_base=frozenset({'frozen vegetables', 'olive oil', 'nan'}), items_add=frozenset({'milk'}), confidence=0.4235294117647058, lift=3.2684095860566447)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'frozen vegetables', 'shrimp', 'mineral water', 'nan'}), support=0.007199040127982935, ordered_statistics=[OrderedStatistic(items_base=frozenset({'shrimp', 'mineral water'}), items_add=frozenset({'frozen vegetables', 'nan'}), confidence=0.30508474576271183, lift=3.200616332819722), OrderedStatistic(items_base=frozenset({'shrimp', 'mineral water', 'nan'}), items_add=frozenset({'frozen vegetables'}), confidence=0.3068181818181818, lift=3.218801652892562)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'frozen vegetables', 'olive oil', 'nan', 'spaghetti'}), support=0.005732568990801226, ordered_statistics=[OrderedStatistic(items_base=frozenset({'frozen vegetables', 'spaghetti'}), items_add=frozenset({'olive oil', 'nan'}), confidence=0.20574162679425836, lift=3.1303609383037156), OrderedStatistic(items_base=frozenset({'frozen vegetables', 'nan', 'spaghetti'}), items_add=frozenset({'olive oil'}), confidence=0.20574162679425836, lift=3.1240241752707125)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'frozen vegetables', 'shrimp', 'nan', 'spaghetti'}), support=0.005999200106652446, ordered_statistics=[OrderedStatistic(items_base=frozenset({'frozen vegetables', 'spaghetti'}), items_add=frozenset({'shrimp', 'nan'}), confidence=0.21531100478468898, lift=3.0187810222242093), OrderedStatistic(items_base=frozenset({'frozen vegetables', 'nan', 'spaghetti'}), items_add=frozenset({'shrimp'}), confidence=0.21531100478468898, lift=3.0131489680782684)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'frozen vegetables', 'nan', 'tomatoes', 'spaghetti'}), support=0.006665777896280496, ordered_statistics=[OrderedStatistic(items_base=frozenset({'frozen vegetables', 'spaghetti'}), items_add=frozenset({'nan', 'tomatoes'}), confidence=0.23923444976076558, lift=3.4980460188216425), OrderedStatistic(items_base=frozenset({'spaghetti', 'tomatoes'}), items_add=frozenset({'frozen vegetables', 'nan'}), confidence=0.3184713375796179, lift=3.341053850607991), OrderedStatistic(items_base=frozenset({'frozen vegetables', 'nan', 'spaghetti'}), items_add=frozenset({'tomatoes'}), confidence=0.23923444976076558, lift=3.4980460188216425), OrderedStatistic(items_base=frozenset({'spaghetti', 'nan', 'tomatoes'}), items_add=frozenset({'frozen vegetables'}), confidence=0.3184713375796179, lift=3.341053850607991)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'spaghetti', 'grated cheese', 'nan', 'ground beef'}), support=0.005332622317024397, ordered_statistics=[OrderedStatistic(items_base=frozenset({'spaghetti', 'grated cheese'}), items_add=frozenset({'nan', 'ground beef'}), confidence=0.3225806451612903, lift=3.283144395325426), OrderedStatistic(items_base=frozenset({'spaghetti', 'grated cheese', 'nan'}), items_add=frozenset({'ground beef'}), confidence=0.3225806451612903, lift=3.283144395325426)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'herb & pepper', 'mineral water', 'nan', 'ground beef'}), support=0.006665777896280496, ordered_statistics=[OrderedStatistic(items_base=frozenset({'herb & pepper', 'mineral water'}), items_add=frozenset({'nan', 'ground beef'}), confidence=0.39062500000000006, lift=3.975682666214383), OrderedStatistic(items_base=frozenset({'herb & pepper', 'mineral water', 'nan'}), items_add=frozenset({'ground beef'}), confidence=0.39062500000000006, lift=3.975682666214383)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'spaghetti', 'herb & pepper', 'nan', 'ground beef'}), support=0.006399146780429276, ordered_statistics=[OrderedStatistic(items_base=frozenset({'spaghetti', 'herb & pepper'}), items_add=frozenset({'nan', 'ground beef'}), confidence=0.3934426229508197, lift=4.004359721511667), OrderedStatistic(items_base=frozenset({'spaghetti', 'herb & pepper', 'nan'}), items_add=frozenset({'ground beef'}), confidence=0.3934426229508197, lift=4.004359721511667)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'olive oil', 'milk', 'nan', 'ground beef'}), support=0.004932675643247567, ordered_statistics=[OrderedStatistic(items_base=frozenset({'milk', 'ground beef'}), items_add=frozenset({'olive oil', 'nan'}), confidence=0.22424242424242427, lift=3.4118507591124225), OrderedStatistic(items_base=frozenset({'milk', 'nan', 'ground beef'}), items_add=frozenset({'olive oil'}), confidence=0.22424242424242427, lift=3.40494417862839)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'spaghetti', 'shrimp', 'nan', 'ground beef'}), support=0.005999200106652446, ordered_statistics=[OrderedStatistic(items_base=frozenset({'shrimp', 'ground beef'}), items_add=frozenset({'spaghetti', 'nan'}), confidence=0.5232558139534884, lift=3.005315360233627), OrderedStatistic(items_base=frozenset({'shrimp', 'nan', 'ground beef'}), items_add=frozenset({'spaghetti'}), confidence=0.5232558139534884, lift=3.005315360233627)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'spaghetti', 'olive oil', 'nan', 'milk'}), support=0.007199040127982935, ordered_statistics=[OrderedStatistic(items_base=frozenset({'spaghetti', 'milk'}), items_add=frozenset({'olive oil', 'nan'}), confidence=0.20300751879699247, lift=3.088761457396025), OrderedStatistic(items_base=frozenset({'spaghetti', 'nan', 'milk'}), items_add=frozenset({'olive oil'}), confidence=0.20300751879699247, lift=3.0825089038385434)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'olive oil', 'soup', 'mineral water', 'nan'}), support=0.005199306759098787, ordered_statistics=[OrderedStatistic(items_base=frozenset({'soup', 'mineral water'}), items_add=frozenset({'olive oil', 'nan'}), confidence=0.22543352601156072, lift=3.429973384609973), OrderedStatistic(items_base=frozenset({'soup', 'mineral water', 'nan'}), items_add=frozenset({'olive oil'}), confidence=0.22543352601156072, lift=3.4230301186492245)])
-
-====================================================================================================
-RelationRecord(items=frozenset({'spaghetti', 'olive oil', 'nan', 'pancakes'}), support=0.005065991201173177, ordered_statistics=[OrderedStatistic(items_base=frozenset({'spaghetti', 'pancakes'}), items_add=frozenset({'olive oil', 'nan'}), confidence=0.20105820105820105, lift=3.0591025682303568), OrderedStatistic(items_base=frozenset({'spaghetti', 'nan', 'pancakes'}), items_add=frozenset({'olive oil'}), confidence=0.20105820105820105, lift=3.0529100529100526)])
+RelationRecord(items=frozenset({'olive oil', 'pancakes', 'spaghetti'}), support=0.005065991201173177, ordered_statistics=[OrderedStatistic(items_base=frozenset({'pancakes', 'spaghetti'}), items_add=frozenset({'olive oil'}), confidence=0.20105820105820105, lift=3.0529100529100526)])
 
 ====================================================================================================
