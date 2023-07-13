@@ -10,3 +10,4 @@ yfinance
 yellowbrick
 plotly
 nbformat
+apyori
